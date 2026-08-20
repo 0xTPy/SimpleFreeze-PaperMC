@@ -1,0 +1,13 @@
+name: SimpleFreeze
+version: 1.0.0
+main: simplefreeze.commands.Main
+author: 0xTPy
+api-version: '1.21'
+
+commands:
+  freeze:
+    description: Gèle un joueur
+    usage: /freeze <joueur>
+  unfreeze:
+    description: Dégèle un joueur
+    usage: /unfreeze <joueur>
